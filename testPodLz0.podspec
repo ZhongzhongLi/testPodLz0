@@ -9,4 +9,5 @@ s.source = { :git => "https://github.com/ZhongzhongLi/testPodLz0.git", :tag => "
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
 s.source_files = "TestPodClass", "*.{h,m}"
+s.preserve_paths = 'README.md'
 end
