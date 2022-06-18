@@ -11,7 +11,7 @@
 @implementation TestPodClass
 
 - (void)test {
-    NSLog(@"Hello, I'm TestPodClass");
+    NSLog(@"%s: Hello, I'm TestPodClass", __func__);
 }
 
 @end
